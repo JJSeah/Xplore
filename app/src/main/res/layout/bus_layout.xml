@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:minHeight="132dp">
+
+    <TextView
+        android:id="@+id/busNo"
+        android:layout_width="83dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="16"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/incomingBus"
+        android:layout_width="57dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="22dp"
+        android:gravity="center_horizontal"
+        android:text="10"
+        app:layout_constraintStart_toEndOf="@+id/busNo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/incomingBus2"
+        android:layout_width="57dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="22dp"
+        android:gravity="center_horizontal"
+        android:text="16"
+        app:layout_constraintEnd_toStartOf="@+id/incomingBus3"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toEndOf="@+id/incomingBus"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/incomingBus3"
+        android:layout_width="57dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="22dp"
+        android:gravity="center_horizontal"
+        android:text="48"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/incomingBus2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/crowd"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="57dp"
+        android:layout_height="9dp"
+        android:layout_marginBottom="26dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/busNo"
+        app:layout_constraintTop_toBottomOf="@+id/incomingBus" />
+
+    <ProgressBar
+        android:id="@+id/crowd2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="57dp"
+        android:layout_height="9dp"
+        android:layout_marginBottom="26dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/crowd"
+        app:layout_constraintTop_toBottomOf="@+id/incomingBus2" />
+
+    <ProgressBar
+        android:id="@+id/crowd3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="57dp"
+        android:layout_height="9dp"
+        android:layout_marginBottom="26dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toEndOf="@+id/crowd2"
+        app:layout_constraintTop_toBottomOf="@+id/incomingBus3"
+        app:layout_constraintVertical_bias="1.0" />
+</android.support.constraint.ConstraintLayout>

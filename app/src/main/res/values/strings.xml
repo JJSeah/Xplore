@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Xplore</string>
+    <string name="title_home">Home</string>
+    <string name="title_reminder">Reminder</string>
+    <string name="title_expenses">Expenses</string>
+    <string name="title_list">List</string>
+    <string name="title_Journal">Journal</string>
+    <string name="title_activity_country_details">CountryDetails</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_settings">Settings</string>
+    <string name="lbl_new_todo_title">New ToDo</string>
+    <string name="hint_enter_description">Enter your description!</string>
+    <string name="lbl_edit_todo_title">Edit ToDo</string>
+    <string name="activity_title_home">Expenditure</string>
+    <string name="msg_no_money">No Expenditure found!</string>
+    <string name="lbl_new_money_title">New Expenditure</string>
+    <string name="lbl_edit_money_title">Edit Expenditure</string>
+    <string name="hint_enter_money">Enter amount!</string>
+</resources>

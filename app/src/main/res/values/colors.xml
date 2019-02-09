@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#141c44</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="msg_no_expenditure">#999</color>
+    <color name="hint_enter_description">#89c3c3c3</color>
+    <color name="timestamp">#858585</color>
+    <color name="money_list_description">#232323</color>
+</resources>
